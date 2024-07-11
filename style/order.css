@@ -1,0 +1,43 @@
+.order{
+    background-color: #312f30;
+}
+.order .container{
+    padding: 60px 115px 60px 15px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.order__img{
+    max-width: 470px;
+}
+.order__text{
+    /* padding-left: 130px; */
+    max-width: 360px;
+}
+.order__title{
+    font-size: 44px;
+}
+.order__disc{
+    opacity: 0.7;
+    padding: 24px 0 13px 0;
+}
+.order__price{
+    font-weight: 500;
+    font-size: 20px;
+    color: #F6762C;
+    letter-spacing: 0.1em;
+}
+.order__price--old{
+    font-size: 16px ;
+    font-weight: 500;
+    color: #F6762C;
+    opacity: 0.5;
+    text-decoration: line-through;
+    letter-spacing: 0.1em;
+}
+.order__price+.order__price{
+    margin-left: 2 px;
+}
+.order .btn{
+    margin-top: 10px;
+}
