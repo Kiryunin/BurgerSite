@@ -1,0 +1,26 @@
+.welcome{
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin-top: -99px;
+    padding: 200px 0;
+    background-image: url(../images/welcome-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.welcome__text{
+    width: 50%;
+}
+.welcome__subtitle{
+    margin-bottom: 7px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.welcome__title{
+    font-size: 58px;
+}
+.welcome__desc{
+    font-size: 18px;
+    opacity: 0.7;
+    margin: 40px 0;
+}
